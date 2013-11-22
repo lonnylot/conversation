@@ -1,0 +1,29 @@
+{% extends "../base.html" %}
+
+{% block content %}
+  <div id="main" role="main">
+
+    <section class="twitter-authentication-pin">
+
+      <div>
+        <form id="" class="form" action="" method="GET">
+          <fieldset>
+            <dl>
+              <dt>
+                <label for="title">Authentication Pin</label>
+              </dt>
+              <dd>
+                <input autocomplete="off" id="oauth_verifier" name="oauth_verifier" type="text" class="form-control" placeholder="" required="" value="">
+              </dd>
+              <div class="for-submit" style="padding: 10px; text-align:right">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </dl>
+          </fieldset>
+        </form>
+      </div>
+
+    </section>
+  </div>
+{% end %}
+

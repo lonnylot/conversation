@@ -3603,7 +3603,7 @@ ul.investments-list {
   .featured-feed {
     width: 40% !important;
   }
-  .hot-newest-feed {
+  .hot-newest-feed, .twitter-authentication-pin {
     width: 57% !important;
   }
 }
@@ -3620,7 +3620,7 @@ ul.investments-list {
         */
      margin-top:0;
     }
-     .hot-newest-feed {
+     .hot-newest-feed, .twitter-authentication-pin {
         float:left;
         width:56%;
         margin:0 4% 0 0;
@@ -3677,7 +3677,7 @@ ul.investments-list {
         width:27%;
         margin:0 22% 0 0;
     }
-     .hot-newest-feed {
+     .hot-newest-feed, .twitter-authentication-pin {
         float:left;
         width:563px;
         margin:0 40px 0 0;
@@ -3760,7 +3760,7 @@ ul.investments-list {
  }
  
  
- .hot-newest-feed {
+ .hot-newest-feed, .twitter-authentication-pin {
      position: relative;
  }
 
@@ -3785,7 +3785,7 @@ ul.investments-list {
           /*font-size:1.2em;
           */
      }
-     .hot-newest-feed {
+     .hot-newest-feed, .twitter-authentication-pin {
         /* float:right;
         */
      width:52%;
